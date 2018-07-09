@@ -1,0 +1,33 @@
+body {
+
+}
+.ler_image {
+  position: relative;
+  background-image: url('../img/test.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1320px;
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 0px 0px;
+  /*display: block;*/
+}
+
+div.ler_image > img {
+  /*visibility: hidden;*/
+  display: block;
+  height: 1320px;
+  width: 1020px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+div.word {
+  opacity: 0;
+}
+
+.word:hover {
+  background-color: red;
+  opacity: 1;
+}

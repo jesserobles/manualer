@@ -1,0 +1,22 @@
+{% extends "bootstrap/base.html" %}
+{% block head %}
+{{ super() }}
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+{% endblock %}
+{% block title %}Events Reporting{% endblock %}
+
+{% block navbar %}
+{% endblock %}
+
+{% block content %}
+<div class="container"></div>
+{% endblock %}
+
+
+{% block scripts %}
+{{ super() }}
+{% endblock %}
